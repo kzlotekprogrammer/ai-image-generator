@@ -95,7 +95,7 @@ def save_image(image, meta: dict) -> Path:
 
 def append_gallery(entries: list[tuple[Path, dict]]) -> None:
     lines = []
-    for path, meta in entries:
+    for path, meta in reversed(entries):
         rel = path.relative_to(ROOT).as_posix()
         lines.append(
             f"### {meta['created']} · seed {meta['seed']} · {meta['preset']}\n\n"
