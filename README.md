@@ -14,7 +14,7 @@ python -m venv venv
 
 Modele pobierają się automatycznie przy pierwszym uruchomieniu do `models/` (ok. 7 GB na SDXL, ok. 7 GB na Turbo).
 
-> Norton przechwytuje HTTPS własnym certyfikatem. Nowy pip i `generate.py` (przez `truststore`) korzystają z magazynu certyfikatów Windows, więc wszystko działa bez wyłączania weryfikacji SSL.
+> Norton przechwytuje HTTPS własnym certyfikatem. Nowy pip i `generate.py` (przez `truststore`) korzystają z magazynu certyfikatów Windows, więc wszystko działa bez wyłączania weryfikacji SSL. Git w tym repo ma `http.sslBackend schannel` z tego samego powodu.
 
 ## Użycie
 
