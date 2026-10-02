@@ -65,16 +65,16 @@ def load_pipeline(model: str, offload: bool):
     if not torch.cuda.is_available():
         sys.exit("CUDA is not available - check the PyTorch install in venv.")
 
-    vae = AutoencoderKL.from_pretrained(SDXL_FP16_VAE, torch_dtype=torch.float16)
+    vae = AutoencoderKL.from_pretrained(SDXL_FP16_VAE, dtype=torch.float16)
     pipe = AutoPipelineForText2Image.from_pretrained(
-        model, vae=vae, torch_dtype=torch.float16, variant="fp16", use_safetensors=True
+        model, vae=vae, dtype=torch.float16, variant="fp16", use_safetensors=True
     )
     if offload:
         # Moves each sub-model to the GPU only while it runs; fits SDXL into 8 GB.
         pipe.enable_model_cpu_offload()
     else:
         pipe.to("cuda")
-    pipe.enable_vae_tiling()
+    pipe.vae.enable_tiling()
     pipe.set_progress_bar_config(disable=False)
     return pipe
 
