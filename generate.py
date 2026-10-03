@@ -39,6 +39,15 @@ PRESETS = {
         "guidance": 6.5,
         "negative": "lowres, blurry, jpeg artifacts, watermark, text, signature, deformed, bad anatomy, extra fingers",
     },
+    # SDXL fine-tune that is stronger at cartoon / illustration / mascot styles.
+    "cartoon": {
+        "model": "Lykon/dreamshaper-xl-1-0",
+        "width": 1024,
+        "height": 1024,
+        "steps": 30,
+        "guidance": 6.0,
+        "negative": "lowres, blurry, jpeg artifacts, watermark, signature, deformed, bad anatomy, extra fingers",
+    },
     # Fast drafts (1-4 steps, no CFG). Non-commercial licence.
     "turbo": {
         "model": "stabilityai/sdxl-turbo",

@@ -11,7 +11,8 @@ Run from the repo root (PowerShell):
 ```
 
 - Translate/expand the user's request into a good English SDXL prompt (subject, style, lighting, composition).
-- `--preset turbo -n 4` for quick drafts/variations; default `sdxl` for final quality.
+- `--preset turbo -n 4` for quick drafts/variations; default `sdxl` for final quality; `--preset cartoon` (DreamShaper XL) for cartoon/mascot/sticker styles — much better than base SDXL there.
+- CLIP reads only ~77 tokens: keep prompts short, put the important parts first (anything past the limit is silently dropped — check the log for "truncated").
 - `--push` commits the PNGs + `GALLERY.md` and pushes, so the user can view them on GitHub. Always push unless told otherwise.
 - After pushing, also send the image(s) to the user's device with SendUserFile when available.
 - Reuse `--seed` from PNG metadata / GALLERY.md to iterate on an image the user liked.
