@@ -2,6 +2,30 @@
 
 Newest first.
 
+### 2026-10-03 10:36:00 · seed 937955638 · cartoon
+
+**Prompt:** cartoon beaver lounging in a deck chair, short chubby brown furry hind legs stretched out, small dark webbed beaver feet, brown fur, bold outlines, flat colors
+
+<img src="outputs/2026-10-03/103600_937955638_cartoon-beaver-lounging-in-a-deck-chair.png" width="512">
+
+### 2026-10-03 10:35:44 · seed 937955637 · cartoon
+
+**Prompt:** cartoon beaver lounging in a deck chair, short chubby brown furry hind legs stretched out, small dark webbed beaver feet, brown fur, bold outlines, flat colors
+
+<img src="outputs/2026-10-03/103544_937955637_cartoon-beaver-lounging-in-a-deck-chair.png" width="512">
+
+### 2026-10-03 10:35:28 · seed 937955636 · cartoon
+
+**Prompt:** cartoon beaver lounging in a deck chair, short chubby brown furry hind legs stretched out, small dark webbed beaver feet, brown fur, bold outlines, flat colors
+
+<img src="outputs/2026-10-03/103528_937955636_cartoon-beaver-lounging-in-a-deck-chair.png" width="512">
+
+### 2026-10-03 10:35:12 · seed 937955635 · cartoon
+
+**Prompt:** cartoon beaver lounging in a deck chair, short chubby brown furry hind legs stretched out, small dark webbed beaver feet, brown fur, bold outlines, flat colors
+
+<img src="outputs/2026-10-03/103512_937955635_cartoon-beaver-lounging-in-a-deck-chair.png" width="512">
+
 ### 2026-10-03 10:12:46 · seed 937955635 · cartoon
 
 **Prompt:** relaxed adult beaver cartoon mascot sticker, lounging lazily on a beach deck chair, chill happy smile, two big orange buck teeth, sunglasses, sweating, raising one red white and navy blue beer can, natural brown fur, no clothes, flat scaly paddle tail, blazing sun and heat waves, orange background, bold outlines, white sticker border

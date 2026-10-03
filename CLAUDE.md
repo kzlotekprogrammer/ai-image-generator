@@ -16,6 +16,7 @@ Run from the repo root (PowerShell):
 - `--push` commits the PNGs + `GALLERY.md` and pushes, so the user can view them on GitHub. Always push unless told otherwise.
 - After pushing, also send the image(s) to the user's device with SendUserFile when available.
 - Reuse `--seed` from PNG metadata / GALLERY.md to iterate on an image the user liked.
+- To fix one part of an image (hands, legs, an object) use `inpaint.py <png> "<what goes there>" --box x1,y1,x2,y2 --preset <same as source> -n 4 [--push]` — repaints only the box, the rest stays pixel-identical.
 
 ## Notes
 
